@@ -7,6 +7,11 @@
 	<link rel="stylesheet" href="css/index.css" type="text/css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Josefin+Sans|Karma|Permanent+Marker|Philosopher|Playfair+Display|Raleway|Rammetto+One|Righteous|Coiny|Aclonica" rel="stylesheet">
+	<style>
+		body{
+			background-color: pink;
+		}
+	</style>
 </head>
 <body>
 	<div id="navi">
@@ -66,24 +71,30 @@
 
 		<h3 align="center">Bergabung Menjadi Reseller</h3>
 		<div align="center">
-			<form class="col-md-10">
-				<div class="form-group">
-				   	<label for="inputCity">Nama</label>
-				   	<input type="text" class="form-control" id="inputCity">
+			<form class="col-md-10" action="addreseller.php" method="post">
+				<div class="form-row">
+					<div class="form-group col-md-8">
+					   	<label for="innama">Nama</label>
+					   	<input type="text" class="form-control" name="innama">
+					</div>
+					<div class="form-group col-md-4">
+					   	<label for="inid">ID</label>
+					   	<input type="text" class="form-control" name="inid" placeholder="ID terakhir + 1">
+					</div>
 				</div>
 				<div class="form-row">
 				    <div class="form-group col-md-6">
-				    	<label for="inputEmail4">Email</label>
-				      	<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+				    	<label for="inemail">Email</label>
+				      	<input type="email" class="form-control" name="inemail" placeholder="Email">
 				    </div>
 				    <div class="form-group col-md-6">
-				      	<label for="inputPassword4">Telepon</label>
-				      	<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+				      	<label for="intelp">Telepon</label>
+				      	<input type="text" class="form-control" name="intelp" placeholder="Telepon">
 				    </div>
 				</div>
 				<div class="form-group">
-				   	<label for="inputAddress">Address</label>
-				   	<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				   	<label for="inadd">Address</label>
+				   	<input type="text" class="form-control" name="inadd" placeholder="Jl. Diponegoro, Surabaya">
 				</div>
 				<div class="form-group">
 					<div class="form-check">
@@ -93,7 +104,29 @@
 				      	</label>
 				    </div>
 				</div>
-				<button type="submit" class="btn btn-primary">Sign in</button>
+				<div>
+					<?php
+						include ('config.php');
+
+						$sqli = "SELECT pbl_id FROM pembeli ORDER BY pbl_id DESC LIMIT 1";
+						$result2 = mysqli_query($conn, $sqli);
+
+						if($result2->num_rows != 0){
+							while ($rows = $result2->fetch_object()) {
+								$id = $rows->pbl_id;
+									echo "
+										<div class='komenhe'>
+											<h3>ID terakhir :</h3>
+											<h4>$id</h4>
+										</div>
+										";
+							}
+						}else{
+							echo "tidak ada komentar";
+						}
+					?>
+				</div>
+				<button type="submit" class="btn btn-primary" name="submit">Daftar</button>
 			</form>
 			<br>
 		</div>
