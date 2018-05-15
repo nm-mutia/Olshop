@@ -28,10 +28,10 @@
 			        	<a class="nav-link" href="wanita.php">Wanita</a>
 			      	</li>
 			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">Pria</a>
+			        	<a class="nav-link" href="pria.php">Pria</a>
 			      	</li>
 			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">Anak</a>
+			        	<a class="nav-link" href="anak.php">Anak</a>
 			      	</li>
 			      	<li class="nav-item dropdown">
 			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Query</a>

@@ -13,3 +13,19 @@
 .seemore{
 	background-color: pink;
 }
+.komenhe{
+  margin-left: 150px;
+  margin-right: 150px;
+  align-self: center;
+  font-family: 'Raleway';
+  font-size: 10px;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  padding: 10px;
+  border: 1px solid #b5b5b5;
+  box-shadow: 2px 1px 3px #4C6A92;
+}
+.komenhe a:link, .komenhe a:visited{
+  color: black;
+  text-decoration: none;
+}
