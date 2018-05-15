@@ -95,7 +95,7 @@
 		      		<div class="col-sm-4 imgdpn"><img src="img/cationmaxitop.jpg"></div>
 		      	</div>
 		      	<br>
-		      	<button type="button" class="btn btn-block seemore" >Lihat Selengkapnya</button>
+		      	<a href="wanita.php" role="button" class="btn btn-block seemore" >Lihat Selengkapnya</a>
 		      	<br>
 
 		      	<h2>PRIA</h2>
@@ -108,7 +108,7 @@
 		      		<div class="col-sm-4 imgdpn"><img src="img/roundneckshirt.jpg"></div>
 		      	</div>
 		      	<br>
-		      	<button type="button" class="btn btn-block seemore" >Lihat Selengkapnya</button>
+		      	<a href="pria.php" role="button" class="btn btn-block seemore" >Lihat Selengkapnya</a>
 		      	<br>
 
 		      	<h2>ANAK - ANAK</h2>
@@ -121,7 +121,7 @@
 		      		<div class="col-sm-4 imgdpn"><img src="img/parkanavy.jpg"></div>
 		      	</div>
 		      	<br>
-		      	<button type="button" class="btn btn-block seemore" >Lihat Selengkapnya</button>
+		      	<a href="anak.php" role="button" class="btn btn-block seemore" >Lihat Selengkapnya</a>
 		      	<br>
 		    </div>
 	 	</div>

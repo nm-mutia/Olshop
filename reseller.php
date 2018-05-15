@@ -44,6 +44,17 @@
 	</div>
 
 	<div style="margin-top:60px;">
+		<div>
+			<h2 align="center">Ketentuan Reseller</h2>
+			<dl style="margin-left: 60px;">
+			    <dt>Minimal Belanja</dt>
+			    <dd>- Rp1.000.000,00</dd>
+			    <dt>Minimal Per-Barang</dt>
+			    <dd>- 10 pieces</dd>
+			</dl>
+		</div>
+		<br>
+
 		<h3 align="center">Daftar Reseller</h3>
 		<?php
 			include ('config.php');
