@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wanita</title>
+	<title>Rona : Wanita</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/index.css" type="text/css">
@@ -21,21 +21,58 @@
 			        	<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			      	</li>
 			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">Wanita</a>
+			        	<a class="nav-link" href="wanita.php">Wanita</a>
 			      	</li>
 			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">Pria</a>
+			        	<a class="nav-link" href="pria.php">Pria</a>
 			      	</li>
 			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">Anak</a>
+			        	<a class="nav-link" href="anak.php">Anak</a>
 			      	</li>
 			    </ul>
 		  	</div>
-		  	<form class="form-inline my-2 my-lg-0">
-		      	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		    	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		    </form>
 		</nav>
 	</div>
+
+	<div class="container">
+		<div class="row" style="margin-top:60px;">
+			<div class="col-md-9" style="background-color: yellow;">
+				<h2>KOLEKSI WANITA</h2>
+				<div class="container" style="margin-top:30px">
+			      	<h2>WANITA</h2>
+			      	<h5>Perlengkapan Wanita, Updated</h5> 
+			      	<p>Some text..</p>
+			      	<div class="row">
+			      		<div class="col-sm-4 imgdpn">
+			      			<img src="img/stripedtop.jpg">
+			      			<p>Desc: Striped Top</p>
+			      			<p>Harga: Rp 150.000</p>
+			      		</div>
+			      		<div class="col-sm-4 imgdpn">
+			      			<img src="img/solidwedges.jpg">
+			      			<p>Desc: Striped Top</p>
+			      			<p>Harga: Rp 150.000</p>
+			      		</div>
+			      		<div class="col-sm-4 imgdpn"><img src="img/cationmaxitop.jpg"></div>
+			      	</div>
+			      	<br>
+			      	<div class="row">
+			      		<div class="col-sm-4 imgdpn">
+			      			<img src="img/stripedtop.jpg">
+
+			      		</div>
+			      		<div class="col-sm-4 imgdpn"><img src="img/solidwedges.jpg"></div>
+			      		<div class="col-sm-4 imgdpn"><img src="img/cationmaxitop.jpg"></div>
+			      	</div>
+			      	<br>
+			    </div>
+			</div>
+
+			<div class="col-md-3">
+				<h2>Koleksi Lainnya</h2>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>

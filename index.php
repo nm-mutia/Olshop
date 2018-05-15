@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
+	<title>Rona : Homepage</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/index.css" type="text/css">
@@ -60,6 +60,7 @@
 	<div class="container" style="margin-top:30px">
 		<div class="row">
 		    <div class="col-sm-8" style="background-color: orange;">
+		    	<br>
 		      	<h2>WANITA</h2>
 		      	<h5>Perlengkapan Wanita, Updated</h5> 
 		      	<p>Some text..</p>
@@ -100,6 +101,7 @@
 		    </div>
 
 		    <div class="col-sm-4" style="background-color: yellow;">
+		    	<br>
 	      		<h2>HOT DEALS</h2>
 	      		<h5>Reseller Disc 10%</h5>
 	      		<img src="img/disc.png">
