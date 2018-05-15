@@ -29,18 +29,6 @@
 			      	<li class="nav-item">
 			        	<a class="nav-link" href="anak.php">Anak</a>
 			      	</li>
-			      	<li class="nav-item dropdown">
-			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Query</a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				        	<a class="dropdown-item" href="#">View</a>
-				          	<a class="dropdown-item" href="#">Function</a>
-				          	<a class="dropdown-item" href="#">Trigger</a>
-				          	<a class="dropdown-item" href="#">Procedure</a>
-				          	<a class="dropdown-item" href="#">Index</a>
-				          	<a class="dropdown-item" href="#">Join</a>
-				          	<a class="dropdown-item" href="#">Kursor</a>
-				        </div>
-			      	</li>
 			    </ul>
 		  	</div>
 		  	<form class="form-inline my-2 my-lg-0">
@@ -51,6 +39,7 @@
 	</div>
 
 	<div style="margin-top:60px;">
+		<h3 align="center">Daftar Reseller</h3>
 		<?php
 			include ('config.php');
 
@@ -63,9 +52,9 @@
 					$nama = $rows->pbl_nama;
 					$alamat = $rows->pbl_alamat;
 						echo "
-							<div class='komenhe'>
-								<h2>$nama</h2>
-								<h3>$alamat</h3><br>
+							<div class='komenhe' align='center'>
+								<h4>$nama</h4>
+								<h5>$alamat</h5><br>
 							</div>
 							";
 				}
@@ -73,6 +62,41 @@
 				echo "tidak ada komentar";
 			}
 		?>
+		<br>
+
+		<h3 align="center">Bergabung Menjadi Reseller</h3>
+		<div align="center">
+			<form class="col-md-10">
+				<div class="form-group">
+				   	<label for="inputCity">Nama</label>
+				   	<input type="text" class="form-control" id="inputCity">
+				</div>
+				<div class="form-row">
+				    <div class="form-group col-md-6">
+				    	<label for="inputEmail4">Email</label>
+				      	<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+				    </div>
+				    <div class="form-group col-md-6">
+				      	<label for="inputPassword4">Telepon</label>
+				      	<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+				    </div>
+				</div>
+				<div class="form-group">
+				   	<label for="inputAddress">Address</label>
+				   	<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				</div>
+				<div class="form-group">
+					<div class="form-check">
+				    	<input class="form-check-input" type="checkbox" id="gridCheck">
+				      	<label class="form-check-label" for="gridCheck">
+				        Check me out
+				      	</label>
+				    </div>
+				</div>
+				<button type="submit" class="btn btn-primary">Sign in</button>
+			</form>
+			<br>
+		</div>
 	</div>
 
 </body>

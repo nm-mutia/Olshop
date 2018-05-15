@@ -56,7 +56,7 @@
 
 	<div class="container" style="margin-top:30px">
 		<div class="row">
-	    	<div class="col-sm-4">
+	    	<div class="col-sm-4" style="background-color: yellow;">
 	      		<h2>HOT DEALS</h2>
 	      		<h5>Reseller Disc 10%</h5>
 	      		<img src="img/disc.png">
@@ -82,7 +82,7 @@
 	      		<hr class="d-sm-none">
 	    	</div>
 
-		    <div class="col-sm-8">
+		    <div class="col-sm-8" style="background-color: orange;">
 		      	<h2>WANITA</h2>
 		      	<h5>Perlengkapan Wanita, Updated</h5> 
 		      	<p>Some text..</p>

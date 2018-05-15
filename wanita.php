@@ -29,18 +29,6 @@
 			      	<li class="nav-item">
 			        	<a class="nav-link" href="#">Anak</a>
 			      	</li>
-			      	<li class="nav-item dropdown">
-			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Query</a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				        	<a class="dropdown-item" href="#">View</a>
-				          	<a class="dropdown-item" href="#">Function</a>
-				          	<a class="dropdown-item" href="#">Trigger</a>
-				          	<a class="dropdown-item" href="#">Procedure</a>
-				          	<a class="dropdown-item" href="#">Index</a>
-				          	<a class="dropdown-item" href="#">Join</a>
-				          	<a class="dropdown-item" href="#">Kursor</a>
-				        </div>
-			      	</li>
 			    </ul>
 		  	</div>
 		  	<form class="form-inline my-2 my-lg-0">
