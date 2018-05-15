@@ -6,6 +6,10 @@
 	font-family: 'Karma';
 	font-weight: bold;
 }
-.imgdp{
-	
+.imgdpn img{
+	width: 200px;
+	height: 270px;
+}
+.seemore{
+	background-color: pink;
 }

@@ -81,25 +81,39 @@
 		      	<div class="fakeimg">Fake Image</div>
 		      	<p>Some text..</p>
 		      	<div class="row">
-		      		<div class="col-sm-4 imgdp"><img src="img/stripedtop.jpg"></div>
-		      		<div class="col-sm-4 imgdp"><img src="img/solidwedges.jpg"></div>
-		      		<div class="col-sm-4 imgdp"><img src="img/cationmaxitop.jpg"></div>
+		      		<div class="col-sm-4 imgdpn"><img src="img/stripedtop.jpg"></div>
+		      		<div class="col-sm-4 imgdpn"><img src="img/solidwedges.jpg"></div>
+		      		<div class="col-sm-4 imgdpn"><img src="img/cationmaxitop.jpg"></div>
 		      	</div>
 		      	<br>
-		      	<button type="button" class="btn btn-primary btn-info btn-block">Lihat Selengkapnya</button>
+		      	<button type="button" class="btn btn-block seemore" >Lihat Selengkapnya</button>
 		      	<br>
 
 		      	<h2>PRIA</h2>
 		      	<h5>Title description, Sep 2, 2017</h5>
 		      	<div class="fakeimg">Fake Image</div>
 		      	<p>Some text..</p>
-		      	<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+		      	<div class="row">
+		      		<div class="col-sm-4 imgdpn"><img src="img/casualtrouser.jpg"></div>
+		      		<div class="col-sm-4 imgdpn"><img src="img/menloafers.jpg"></div>
+		      		<div class="col-sm-4 imgdpn"><img src="img/roundneckshirt.jpg"></div>
+		      	</div>
 		      	<br>
+		      	<button type="button" class="btn btn-block seemore" >Lihat Selengkapnya</button>
+		      	<br>
+
 		      	<h2>ANAK_ANAK</h2>
 		      	<h5>Title description, Sep 2, 2017</h5>
 		      	<div class="fakeimg">Fake Image</div>
 		      	<p>Some text..</p>
-		      	<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+		      	<div class="row">
+		      		<div class="col-sm-4 imgdpn"><img src="img/jumpsuit.jpg"></div>
+		      		<div class="col-sm-4 imgdpn"><img src="img/collardress.jpg"></div>
+		      		<div class="col-sm-4 imgdpn"><img src="img/parkanavy.jpg"></div>
+		      	</div>
+		      	<br>
+		      	<button type="button" class="btn btn-block seemore" >Lihat Selengkapnya</button>
+		      	<br>
 		    </div>
 	 	</div>
 	</div>
@@ -108,6 +122,8 @@
 		<h5>Copyright @Rona_Olshop</h5>
 	</div>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
