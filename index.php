@@ -59,32 +59,6 @@
 
 	<div class="container" style="margin-top:30px">
 		<div class="row">
-	    	<div class="col-sm-4" style="background-color: yellow;">
-	      		<h2>HOT DEALS</h2>
-	      		<h5>Reseller Disc 10%</h5>
-	      		<img src="img/disc.png">
-	      		<a href="reseller.php" class="btn btn-lg btn-danger" role="button">Reseller</a>
-	      		<br><br>
-
-	      		<h3>Some Links</h3>
-	      		<p>Lorem ipsum dolor sit ame.</p>
-	      		<ul class="nav nav-pills flex-column">
-	        		<li class="nav-item">
-	          			<a class="nav-link active" href="#">Active</a>
-	        		</li>
-	        		<li class="nav-item">
-	          			<a class="nav-link" href="#">Link</a>
-	        		</li>
-			        <li class="nav-item">
-			        	<a class="nav-link" href="#">Link</a>
-			        </li>
-			        <li class="nav-item">
-			          	<a class="nav-link disabled" href="#">Disabled</a>
-			        </li>
-	      		</ul>
-	      		<hr class="d-sm-none">
-	    	</div>
-
 		    <div class="col-sm-8" style="background-color: orange;">
 		      	<h2>WANITA</h2>
 		      	<h5>Perlengkapan Wanita, Updated</h5> 
@@ -124,8 +98,36 @@
 		      	<a href="anak.php" role="button" class="btn btn-block seemore" >Lihat Selengkapnya</a>
 		      	<br>
 		    </div>
+
+		    <div class="col-sm-4" style="background-color: yellow;">
+	      		<h2>HOT DEALS</h2>
+	      		<h5>Reseller Disc 10%</h5>
+	      		<img src="img/disc.png">
+	      		<a href="reseller.php" class="btn btn-lg btn-danger" role="button">Reseller</a>
+	      		<br><br>
+
+	      		<h3>Some Links</h3>
+	      		<p>Lorem ipsum dolor sit ame.</p>
+	      		<ul class="nav nav-pills flex-column">
+	        		<li class="nav-item">
+	          			<a class="nav-link active" href="#">Active</a>
+	        		</li>
+	        		<li class="nav-item">
+	          			<a class="nav-link" href="#">Link</a>
+	        		</li>
+			        <li class="nav-item">
+			        	<a class="nav-link" href="#">Link</a>
+			        </li>
+			        <li class="nav-item">
+			          	<a class="nav-link disabled" href="#">Disabled</a>
+			        </li>
+	      		</ul>
+	      		<hr class="d-sm-none">
+	    	</div>
+
 	 	</div>
 	</div>
+
 
 	<div class="jumbotron text-center" style="margin-bottom:0">
 		<h5>Copyright @Rona_Olshop</h5>
